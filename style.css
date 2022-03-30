@@ -1,0 +1,41 @@
+body{
+    background-image: url(j.jpg);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+.fontes{
+    font-size: 100px;
+    color: purple;
+    border: 5px solid rgb(255, 0, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.wave{
+    color:white;
+}
+
+div{
+    border: solid 3px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px 20px 5px 12px;
+    /* Para dar um espaçamento para cima utilizamos padding-top;
+        Para dar um espaçamento para baixo utilizams padding-bottom;
+        Para dar um espaçamento para a esquerda utilizamos o left;
+        Para dar um espaçamento para a direita utilizamos o right;
+        
+        Para dar um espaçamento direto para todas as direções utilizamos: padding 0px 0px 0px 0px; onde está (0px) está
+        equivalente as direções do espaçamento 
+        
+                                                {OBS: Padding é espaçamento interno}
+
+                                                {OBS: Margin é utilizado para  o espaçamento externo}
+
+                                                {OBS: Width:0%; ( é largura na qual a div ocuparaá no site )}
+    
+
+    */
+    width:5%;
+}
